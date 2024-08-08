@@ -8,7 +8,8 @@
     <ul>
         {% for item in model %}
             {% if item.name == user.username %}
-            <h1> {{item.name}}
+            <h1>Team: {{item.dept}}</h1>
+            <h1> Hi, {{item.name}} you are Using {{item.model}} {{item.processor}} which has {{item.ssd}} OS Drive, {{item.hdd}} Storage {{item.ram}} of Ram <h1>
             {% endif %}
         {% endfor %}
     </ul>
