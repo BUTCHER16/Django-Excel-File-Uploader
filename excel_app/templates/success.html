@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load custom_filters %}
+{% block content %}
+    <h1>Upload Successful!</h1>
+    <p>Your data has been successfully uploaded, {{ user.username }}.</p>
+
+    <h2>Data:</h2>
+    <ul>
+        {% for item in model %}
+            {% if item.name == user.username %}
+            <h1> {{item.name}}
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endblock content %}
