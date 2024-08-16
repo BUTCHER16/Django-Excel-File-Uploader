@@ -20,7 +20,7 @@ This Django application provides a simple interface for uploading Excel files. T
 ## ⚙️ Installation
 
 1. Clone the Repository
-   git clone https://github.com/yourusername/your-repository.git
+   git clone [https://github.com/BUTCHER16/Excel-Auto-Update-DB]
    cd your-repository
 
 2. Create a Virtual Environment
